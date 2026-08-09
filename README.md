@@ -3,6 +3,7 @@
 Una aplicación web Serverless alojada en AWS que convierte texto a voz utilizando Inteligencia Artificial. Diseñada con una arquitectura síncrona orientada a la eficiencia y el bajo costo.
 
 # Arquitectura y Tecnologías
+![Arquitectura](Arquitectura.png)
 *   **AWS Lambda:** Actúa como el backend de cómputo (Serverless), ejecutando el código Python solo cuando se recibe una petición HTTP.
 *   **Lambda Function URLs:** Expone la función de forma segura a internet sin necesidad de aprovisionar un API Gateway, reduciendo costos y complejidad.
 *   **Amazon Polly:** Servicio de IA de AWS que sintetiza el texto a voz (VoiceId: Lupe) de forma dinámica.
