@@ -20,5 +20,4 @@ Una aplicación web Serverless alojada en AWS que convierte texto a voz utilizan
 4. Lambda valida las credenciales; si son correctas, se comunica con Amazon Polly.
 5. Polly devuelve el stream de audio, el cual es codificado en base64.
 6. Lambda devuelve el HTML actualizado con el reproductor de audio incrustado.
-
 ![Interfaz web de la aplicación Serverless](Test Txt To MP3.png)
